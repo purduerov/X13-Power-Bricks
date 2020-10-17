@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -196,50 +196,6 @@ DIN A4, landscape with location and doc. field</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="UCM1H331MNL1GS">
-<packages>
-<package name="UCM1H331MNL1GS">
-<smd name="P$1" x="0" y="-4.5" dx="3" dy="5" layer="1"/>
-<smd name="P$2" x="0" y="4.5" dx="3" dy="5" layer="1"/>
-<wire x1="-5" y1="-5" x2="-5" y2="3" width="0.1524" layer="21"/>
-<wire x1="-3" y1="5" x2="3" y2="5" width="0.1524" layer="21"/>
-<wire x1="5" y1="3" x2="5" y2="-5" width="0.1524" layer="21"/>
-<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1524" layer="21"/>
-<wire x1="-3" y1="5" x2="-5" y2="3" width="0.127" layer="21"/>
-<wire x1="3" y1="5" x2="5" y2="3" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPACITOR">
-<wire x1="0" y1="-5.08" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-0.508" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-<pin name="P$1" x="0" y="5.08" length="middle" rot="R270"/>
-<pin name="P$2" x="0" y="-7.62" length="middle" rot="R90"/>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="UCM1H331MNL1GS">
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="UCM1H331MNL1GS">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1534,6 +1490,67 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="UCM1H331MNL1GS">
+<description>&lt;Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPAE1030X1050N">
+<description>&lt;b&gt;10X10&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.2" y="0" dx="4.3" dy="2.15" layer="1"/>
+<smd name="2" x="4.2" y="0" dx="4.3" dy="2.15" layer="1"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="5.15" y1="5.15" x2="-2.575" y2="5.15" width="0.1" layer="51"/>
+<wire x1="-2.575" y1="5.15" x2="-5.15" y2="2.575" width="0.1" layer="51"/>
+<wire x1="-5.15" y1="2.575" x2="-5.15" y2="-2.575" width="0.1" layer="51"/>
+<wire x1="-5.15" y1="-2.575" x2="-2.575" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="-2.575" y1="-5.15" x2="5.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="5.15" y1="-5.15" x2="5.15" y2="5.15" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="UCM1H331MNL1GS">
+<text x="3.81" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="6.985" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="2.032" y1="-1.27" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="3.302" y1="2.54" x2="3.302" y2="0" width="0.254" layer="94"/>
+<wire x1="3.302" y1="0" x2="3.302" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-67.380135"/>
+<wire x1="2.54" y1="0" x2="3.302" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UCM1H331MNL1GS" prefix="C">
+<description>&lt;b&gt;Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="UCM1H331MNL1GS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPAE1030X1050N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" constant="no"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" constant="no"/>
+<attribute name="HEIGHT" value="10.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1545,9 +1562,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U$2" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
-<part name="U$3" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
-<part name="U$4" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
 <part name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
@@ -1556,6 +1570,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="U$5" library="Dist_to_Brickboard_Connector" deviceset="BRICKBOARD_TSW_14X2" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="C1" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
+<part name="C2" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
+<part name="C3" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1566,18 +1583,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="DRAWING_NAME" x="87.63" y="-63.5" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="87.63" y="-68.58" size="2.286" layer="94"/>
 <attribute name="SHEET" x="100.965" y="-73.66" size="2.54" layer="94"/>
-</instance>
-<instance part="U$2" gate="G$1" x="-96.52" y="43.18" smashed="yes">
-<attribute name="NAME" x="-93.98" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-93.98" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="U$3" gate="G$1" x="-78.74" y="43.18" smashed="yes">
-<attribute name="NAME" x="-76.2" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-76.2" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="U$4" gate="G$1" x="-60.96" y="43.18" smashed="yes">
-<attribute name="NAME" x="-58.42" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-58.42" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="H1" gate="G$1" x="109.22" y="15.24" smashed="yes"/>
 <instance part="H2" gate="G$1" x="104.14" y="15.24" smashed="yes"/>
@@ -1598,23 +1603,32 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="-95.504" y="-5.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-92.456" y="-5.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="C1" gate="G$1" x="-96.52" y="45.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="-92.71" y="41.91" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="C2" gate="G$1" x="-78.74" y="45.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="-74.93" y="41.91" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="C3" gate="G$1" x="-60.96" y="45.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="-57.15" y="41.91" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="48V" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="48.26" x2="-96.52" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="45.72" x2="-96.52" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="53.34" x2="-78.74" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="-78.74" y1="53.34" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="53.34" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="53.34" x2="-60.96" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-78.74" y="53.34"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="-60.96" y1="53.34" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="53.34" x2="-60.96" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="53.34" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
 <label x="-78.74" y="58.42" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
@@ -1682,17 +1696,17 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="48_GND" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="-60.96" y1="35.56" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="38.735" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="30.48" x2="-78.74" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<wire x1="-78.74" y1="30.48" x2="-78.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="30.48" x2="-78.74" y2="38.735" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="30.48" x2="-96.52" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-78.74" y="30.48"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="-96.52" y1="30.48" x2="-96.52" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="30.48" x2="-96.52" y2="38.735" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="30.48" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
 <label x="-78.74" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="-10.16" x2="-30.48" y2="-10.16" width="0.1524" layer="91"/>
