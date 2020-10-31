@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="2" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -656,9 +656,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.435" y="25.654" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="52.705" y="25.654" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="13.97" y="26.67" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.335" y="26.67" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="14.605" y="26.67" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="13.716" y="25.8064" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.081" y="25.8064" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="14.351" y="25.8064" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="STAND-OFF" x="4" y="47" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.968" y="47" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -681,10 +681,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value=" " x="-41.91" y="1.016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.308" y="22.606" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470" x="13.97" y="21.59" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.732" y="21.59" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="-80.01" y="-3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="13.208" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470" x="13.716" y="22.8346" smashed="yes" rot="R270">
+<attribute name="NAME" x="14.478" y="22.8346" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="-80.264" y="-2.5654" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.954" y="22.8346" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="73.66" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.422" y="25.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -721,30 +721,30 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="27"/>
 <contactref element="R2" pad="2"/>
 <polygon width="0.254" layer="1">
-<vertex x="2.54" y="21.59"/>
-<vertex x="17.78" y="21.59"/>
-<vertex x="19.05" y="22.86"/>
-<vertex x="46.736" y="22.86"/>
-<vertex x="48.26" y="21.336"/>
+<vertex x="1.9304" y="22.4028"/>
+<vertex x="17.3736" y="22.4028"/>
+<vertex x="18.1356" y="23.1648"/>
+<vertex x="47.1424" y="23.1648"/>
+<vertex x="48.26" y="22.0472"/>
 <vertex x="48.26" y="-1.27"/>
 <vertex x="11.43" y="-1.27"/>
 <vertex x="-1.27" y="11.43"/>
-<vertex x="-1.27" y="17.78"/>
+<vertex x="-1.27" y="19.2024"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="2.54" y="21.59"/>
-<vertex x="17.78" y="21.59"/>
-<vertex x="19.05" y="22.86"/>
-<vertex x="46.736" y="22.86"/>
-<vertex x="48.26" y="21.336"/>
+<vertex x="1.9558" y="22.4028"/>
+<vertex x="17.3736" y="22.4028"/>
+<vertex x="18.1356" y="23.1648"/>
+<vertex x="47.1424" y="23.1648"/>
+<vertex x="48.26" y="22.0472"/>
 <vertex x="48.26" y="-2.54"/>
 <vertex x="12.7" y="-2.54"/>
 <vertex x="-1.27" y="11.43"/>
-<vertex x="-1.27" y="17.78"/>
+<vertex x="-1.27" y="19.177"/>
 </polygon>
 <via x="28.448" y="17.78" extent="1-16" drill="1"/>
 <via x="32.512" y="17.78" extent="1-16" drill="1"/>
-<via x="12.7" y="19.05" extent="1-16" drill="1"/>
+<via x="12.5984" y="19.6088" extent="1-16" drill="1"/>
 <via x="8.382" y="17.78" extent="1-16" drill="1"/>
 <via x="4.318" y="17.78" extent="1-16" drill="1"/>
 <via x="39.878" y="17.78" extent="1-16" drill="1"/>
@@ -768,7 +768,7 @@ design rules under a new name.</description>
 <via x="35.56" y="15.24" extent="1-16" drill="0.75"/>
 <via x="12.7" y="15.24" extent="1-16" drill="0.75"/>
 <via x="15.748" y="10.16" extent="1-16" drill="0.75"/>
-<via x="16.51" y="20.32" extent="1-16" drill="0.75"/>
+<via x="15.8496" y="21.4376" extent="1-16" drill="0.75"/>
 <via x="45.72" y="15.24" extent="1-16" drill="0.75"/>
 <via x="28.448" y="20.574" extent="1-16" drill="0.75"/>
 <via x="32.512" y="20.828" extent="1-16" drill="0.75"/>
@@ -796,29 +796,29 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="13"/>
 <contactref element="D2" pad="C"/>
 <polygon width="0.254" layer="16" isolate="0.254">
-<vertex x="12.7" y="26.67"/>
-<vertex x="16.51" y="26.67"/>
-<vertex x="19.05" y="24.13"/>
-<vertex x="46.736" y="24.13"/>
-<vertex x="48.26" y="25.654"/>
+<vertex x="12.954" y="25.7048"/>
+<vertex x="17.3736" y="25.7048"/>
+<vertex x="18.9484" y="24.13"/>
+<vertex x="46.8884" y="24.13"/>
+<vertex x="48.26" y="25.5016"/>
 <vertex x="48.26" y="48.26"/>
 <vertex x="47.498" y="49.022"/>
 <vertex x="10.922" y="49.022"/>
 <vertex x="0" y="38.1"/>
-<vertex x="0" y="25.4"/>
-<vertex x="1.016" y="24.384"/>
-<vertex x="10.414" y="24.384"/>
+<vertex x="0" y="25.146"/>
+<vertex x="2.1844" y="22.9616"/>
+<vertex x="10.2108" y="22.9616"/>
 </polygon>
 <polygon width="0.254" layer="1">
-<vertex x="48.26" y="25.654"/>
-<vertex x="46.736" y="24.13"/>
-<vertex x="19.05" y="24.13"/>
-<vertex x="16.51" y="26.67"/>
-<vertex x="12.7" y="26.67"/>
-<vertex x="10.414" y="24.384"/>
-<vertex x="2.286" y="24.384"/>
-<vertex x="1.524" y="25.146"/>
-<vertex x="1.524" y="39.624"/>
+<vertex x="48.26" y="25.5016"/>
+<vertex x="46.863" y="24.1046"/>
+<vertex x="18.9738" y="24.1046"/>
+<vertex x="17.3736" y="25.7048"/>
+<vertex x="12.9794" y="25.7048"/>
+<vertex x="10.5918" y="23.3172"/>
+<vertex x="1.9812" y="23.3172"/>
+<vertex x="1.6256" y="23.6728"/>
+<vertex x="1.6256" y="39.7256"/>
 <vertex x="10.922" y="49.022"/>
 <vertex x="47.498" y="49.022"/>
 <vertex x="48.26" y="48.26"/>
@@ -854,9 +854,9 @@ design rules under a new name.</description>
 <via x="42.164" y="43.18" extent="1-16" drill="0.75"/>
 <via x="36.322" y="43.18" extent="1-16" drill="0.75"/>
 <via x="29.972" y="43.18" extent="1-16" drill="0.75"/>
-<via x="24.13" y="43.942" extent="1-16" drill="0.75"/>
-<via x="23.876" y="48.006" extent="1-16" drill="0.75"/>
-<via x="21.844" y="48.006" extent="1-16" drill="0.75"/>
+<via x="24.2824" y="43.8912" extent="1-16" drill="0.75"/>
+<via x="24.1808" y="48.1584" extent="1-16" drill="0.75"/>
+<via x="21.59" y="48.1584" extent="1-16" drill="0.75"/>
 <via x="21.59" y="43.942" extent="1-16" drill="0.75"/>
 <via x="33.274" y="46.228" extent="1-16" drill="0.75"/>
 <via x="39.37" y="46.228" extent="1-16" drill="0.75"/>
@@ -875,6 +875,8 @@ design rules under a new name.</description>
 <via x="12.446" y="32.004" extent="1-16" drill="0.75"/>
 <via x="12.192" y="27.432" extent="1-16" drill="0.75"/>
 <via x="16.002" y="27.686" extent="1-16" drill="0.75"/>
+<via x="24.2316" y="45.9232" extent="1-16" drill="0.75"/>
+<via x="21.59" y="46.0248" extent="1-16" drill="0.75"/>
 </signal>
 <signal name="12V">
 <contactref element="U$1" pad="12V"/>
@@ -944,10 +946,10 @@ design rules under a new name.</description>
 <signal name="ON/OFF">
 <contactref element="U$6" pad="1"/>
 <contactref element="U$1" pad="ON/OFF"/>
-<wire x1="16.51" y1="24.13" x2="16.256" y2="23.876" width="0.254" layer="16"/>
-<wire x1="16.256" y1="23.876" x2="2.2352" y2="23.876" width="0.254" layer="16"/>
-<wire x1="2.2352" y1="23.876" x2="1.143" y2="24.9682" width="0.254" layer="16"/>
-<wire x1="1.143" y1="24.9682" x2="1.143" y2="40.1828" width="0.254" layer="16"/>
+<wire x1="16.51" y1="24.13" x2="15.24" y2="22.86" width="0.254" layer="16"/>
+<wire x1="15.24" y1="22.86" x2="1.7272" y2="22.86" width="0.254" layer="16"/>
+<wire x1="1.7272" y1="22.86" x2="1.143" y2="23.4442" width="0.254" layer="16"/>
+<wire x1="1.143" y1="23.4442" x2="1.143" y2="40.1828" width="0.254" layer="16"/>
 <wire x1="1.143" y1="40.1828" x2="10.6172" y2="49.657" width="0.254" layer="16"/>
 <wire x1="10.6172" y1="49.657" x2="22.479" y2="49.657" width="0.254" layer="16"/>
 <wire x1="22.479" y1="49.657" x2="22.86" y2="49.276" width="0.254" layer="16"/>
@@ -1042,7 +1044,7 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="R2" pad="1"/>
 <contactref element="D2" pad="A"/>
-<wire x1="13.97" y1="25.793" x2="13.97" y2="22.44" width="0.254" layer="1"/>
+<wire x1="13.716" y1="24.9294" x2="13.716" y2="23.6846" width="0.254" layer="1"/>
 </signal>
 <signal name="DGND">
 <contactref element="U$1" pad="DGND"/>
