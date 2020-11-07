@@ -1809,9 +1809,14 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </net>
 <net name="12V" class="0">
 <segment>
-<wire x1="17.78" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 <label x="33.02" y="20.32" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="VOUT(+)"/>
+<pinref part="U$1" gate="G$1" pin="SENSE(+)"/>
+<wire x1="25.4" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<junction x="25.4" y="20.32"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -1878,12 +1883,22 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <label x="-30.48" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="ON/OFF"/>
 </segment>
+<segment>
+<wire x1="17.78" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="30.48" y="27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="C2"/>
+</segment>
 </net>
 <net name="12_GND" class="0">
 <segment>
-<wire x1="17.78" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
 <label x="33.02" y="-10.16" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="VOUT(-)"/>
+<pinref part="U$1" gate="G$1" pin="SENSE(-)"/>
+<wire x1="25.4" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-2.54" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-2.54" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="25.4" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
