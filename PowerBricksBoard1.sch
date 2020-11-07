@@ -1583,13 +1583,14 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="U$6" library="Dist_to_Brickboard_Connector_brick" deviceset="BRICKBOARD_TSW_14X2" device="" package3d_urn="urn:adsk.eagle:package:23225958/2"/>
 <part name="C1" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
 <part name="C2" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
 <part name="C3" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2400"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="475k"/>
 </parts>
 <sheets>
 <sheet>
@@ -1606,21 +1607,17 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <instance part="H3" gate="G$1" x="104.14" y="10.16" smashed="yes"/>
 <instance part="H4" gate="G$1" x="109.22" y="10.16" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="D1" gate="G$1" x="-93.98" y="-15.24" smashed="yes">
-<attribute name="NAME" x="-97.409" y="-19.812" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-92.075" y="-19.812" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="G$1" x="-101.6" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-105.029" y="-42.672" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-99.695" y="-42.672" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="-93.98" y="-5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="-95.504" y="-5.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-92.456" y="-5.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R1" gate="G$1" x="-101.6" y="-22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="-103.124" y="-22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-100.076" y="-22.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="-66.04" y="-15.24" smashed="yes">
-<attribute name="NAME" x="-69.469" y="-19.812" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-64.135" y="-19.812" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-</instance>
-<instance part="R2" gate="G$1" x="-66.04" y="-5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="-67.564" y="-5.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-64.516" y="-5.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="D2" gate="G$1" x="-73.66" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-77.089" y="-42.672" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-71.755" y="-42.672" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="U$6" gate="G$1" x="35.56" y="66.04" smashed="yes">
 <attribute name="NAME" x="27.94" y="84.074" size="1.778" layer="95"/>
@@ -1644,6 +1641,14 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <instance part="R3" gate="G$1" x="-33.02" y="27.94" smashed="yes">
 <attribute name="NAME" x="-33.02" y="29.464" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-33.02" y="26.416" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R2" gate="G$1" x="-73.66" y="-22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="-75.184" y="-22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-72.136" y="-22.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="35.56" y="5.08" smashed="yes">
+<attribute name="NAME" x="35.56" y="6.604" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="35.56" y="3.556" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -1727,9 +1732,9 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <pinref part="U$6" gate="G$1" pin="27"/>
 </segment>
 <segment>
+<wire x1="-73.66" y1="-17.78" x2="-73.66" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-73.66" y="-12.7" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-66.04" y1="0" x2="-66.04" y2="5.08" width="0.1524" layer="91"/>
-<label x="-66.04" y="5.08" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="48_GND" class="0">
@@ -1803,25 +1808,30 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-66.04" y1="-20.32" x2="-66.04" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-66.04" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-73.66" y1="-43.18" x2="-73.66" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-73.66" y="-50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
 <segment>
 <wire x1="17.78" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
-<label x="33.02" y="20.32" size="1.778" layer="95" xref="yes"/>
+<label x="55.88" y="20.32" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="VOUT(+)"/>
 <pinref part="U$1" gate="G$1" pin="SENSE(+)"/>
-<wire x1="25.4" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="12.7" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 <junction x="25.4" y="20.32"/>
+<wire x1="50.8" y1="5.08" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
+<junction x="50.8" y="20.32"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="0" x2="-93.98" y2="5.08" width="0.1524" layer="91"/>
-<label x="-93.98" y="5.08" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-101.6" y1="-17.78" x2="-101.6" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-101.6" y="-12.7" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="109.22" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
@@ -1902,8 +1912,8 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-93.98" y1="-20.32" x2="-93.98" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-93.98" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-101.6" y1="-43.18" x2="-101.6" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-101.6" y="-50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
@@ -1994,14 +2004,14 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-93.98" y1="-10.16" x2="-93.98" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-27.94" x2="-101.6" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-66.04" y1="-10.16" x2="-66.04" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-35.56" x2="-73.66" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -2034,6 +2044,13 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="ADDR0"/>
 <wire x1="-27.94" y1="20.32" x2="-17.78" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TRIM"/>
+<wire x1="30.48" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
