@@ -632,16 +632,16 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="UCM1H331MNL1GS" package="CAPAE1030X1050N" value="UCM1H331MNL1GS" x="30.48" y="22.86" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="116.84" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.02" y="22.86" size="1.27" layer="25" rot="R90" align="center"/>
+<element name="C1" library="UCM1H331MNL1GS" package="CAPAE1030X1050N" value="UCM1H331MNL1GS" x="30.3022" y="24.4856" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="116.6622" y="44.8056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="32.8422" y="24.4856" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C2" library="UCM1H331MNL1GS" package="CAPAE1030X1050N" value="UCM1H331MNL1GS" x="6.35" y="22.86" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="92.71" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -654,16 +654,16 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="92.71" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.89" y="22.86" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="C3" library="UCM1H331MNL1GS" package="CAPAE1030X1050N" value="UCM1H331MNL1GS" x="41.91" y="22.86" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="128.27" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.45" y="22.86" size="1.27" layer="25" rot="R90" align="center"/>
+<element name="C3" library="UCM1H331MNL1GS" package="CAPAE1030X1050N" value="UCM1H331MNL1GS" x="41.8592" y="24.5618" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="128.2192" y="72.8218" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="44.3992" y="24.5618" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="50.1904" y="25.7048" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.5554" y="25.7048" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -694,17 +694,17 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value=" " x="-43.7896" y="1.0668" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.4284" y="22.6568" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="73.66" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.422" y="25.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="-20.32" y="-3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="72.898" y="25.4" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="74.6506" y="25.3746" smashed="yes" rot="R270">
+<attribute name="NAME" x="75.4126" y="25.3746" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="-19.3294" y="-3.8354" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="73.8886" y="25.3746" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="U$1" library="Q48SC12050NRDH" package="Q48SC12050NRDH" value="Q48SC12050NRDH" x="16.51" y="16.51" smashed="yes"/>
 <element name="U$6" library="Dist_to_Brickboard_Connector_brick" package="BRICKBOARD_TSW_14X2" package3d_urn="urn:adsk.eagle:package:23225958/2" value="BRICKBOARD_TSW_14X2" x="20.32" y="40.64" smashed="yes" rot="R270"/>
-<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="73.66" y="25.4" smashed="yes" rot="MR270">
-<attribute name="NAME" x="72.898" y="25.4" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="73.66" y="24.13" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="74.422" y="25.4" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="72.7964" y="25.3746" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.5584" y="25.3746" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="72.7964" y="24.1046" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="72.0344" y="25.3746" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2400" x="13.6906" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.4526" y="22.86" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -739,10 +739,10 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="27"/>
 <polygon width="0.254" layer="1">
 <vertex x="1.9304" y="22.4028"/>
-<vertex x="17.6276" y="22.4028"/>
-<vertex x="18.1356" y="22.9108"/>
-<vertex x="47.3964" y="22.9108"/>
-<vertex x="48.26" y="22.0472"/>
+<vertex x="17.2974" y="22.4028"/>
+<vertex x="19.0754" y="24.1808"/>
+<vertex x="46.9646" y="24.1808"/>
+<vertex x="48.26" y="22.8854"/>
 <vertex x="48.26" y="-1.27"/>
 <vertex x="11.43" y="-1.27"/>
 <vertex x="-1.27" y="11.43"/>
@@ -750,25 +750,25 @@ design rules under a new name.</description>
 </polygon>
 <polygon width="0.254" layer="16">
 <vertex x="1.9558" y="22.4028"/>
-<vertex x="17.6276" y="22.4028"/>
-<vertex x="18.1356" y="22.9108"/>
-<vertex x="47.3964" y="22.9108"/>
-<vertex x="48.26" y="22.0472"/>
+<vertex x="17.2974" y="22.4028"/>
+<vertex x="19.0754" y="24.1808"/>
+<vertex x="46.9646" y="24.1808"/>
+<vertex x="48.26" y="22.8854"/>
 <vertex x="48.26" y="-2.54"/>
 <vertex x="12.7" y="-2.54"/>
 <vertex x="-1.27" y="11.43"/>
 <vertex x="-1.27" y="19.177"/>
 </polygon>
-<via x="28.448" y="17.78" extent="1-16" drill="1"/>
-<via x="32.512" y="17.78" extent="1-16" drill="1"/>
+<via x="27.8892" y="20.0152" extent="1-16" drill="1"/>
+<via x="32.7406" y="19.9898" extent="1-16" drill="1"/>
 <via x="12.5984" y="19.6088" extent="1-16" drill="1"/>
-<via x="8.382" y="17.78" extent="1-16" drill="1"/>
-<via x="4.318" y="17.78" extent="1-16" drill="1"/>
-<via x="39.878" y="17.78" extent="1-16" drill="1"/>
-<via x="43.942" y="17.78" extent="1-16" drill="1"/>
-<via x="6.35" y="15.748" extent="1-16" drill="0.75"/>
-<via x="30.48" y="15.748" extent="1-16" drill="0.75"/>
-<via x="40.64" y="15.24" extent="1-16" drill="0.75"/>
+<via x="8.6614" y="18.2372" extent="1-16" drill="1"/>
+<via x="4.064" y="18.1864" extent="1-16" drill="1"/>
+<via x="39.4716" y="20.1168" extent="1-16" drill="1"/>
+<via x="44.3738" y="20.2184" extent="1-16" drill="1"/>
+<via x="6.3754" y="15.367" extent="1-16" drill="0.75"/>
+<via x="30.2514" y="16.9164" extent="1-16" drill="0.75"/>
+<via x="41.8592" y="16.9418" extent="1-16" drill="0.75"/>
 <via x="41.402" y="4.318" extent="1-16" drill="0.75"/>
 <via x="36.068" y="4.318" extent="1-16" drill="0.75"/>
 <via x="30.734" y="4.318" extent="1-16" drill="0.75"/>
@@ -787,12 +787,12 @@ design rules under a new name.</description>
 <via x="15.748" y="10.16" extent="1-16" drill="0.75"/>
 <via x="15.8496" y="21.4376" extent="1-16" drill="0.75"/>
 <via x="45.72" y="15.24" extent="1-16" drill="0.75"/>
-<via x="28.448" y="20.574" extent="1-16" drill="0.75"/>
-<via x="32.512" y="20.828" extent="1-16" drill="0.75"/>
-<via x="39.878" y="20.32" extent="1-16" drill="0.75"/>
-<via x="43.942" y="20.32" extent="1-16" drill="0.75"/>
-<via x="8.382" y="20.574" extent="1-16" drill="0.75"/>
-<via x="4.318" y="20.574" extent="1-16" drill="0.75"/>
+<via x="27.9908" y="23.0632" extent="1-16" drill="0.75"/>
+<via x="32.5628" y="23.0632" extent="1-16" drill="0.75"/>
+<via x="39.7002" y="23.0378" extent="1-16" drill="0.75"/>
+<via x="44.0436" y="22.987" extent="1-16" drill="0.75"/>
+<via x="8.5344" y="21.3868" extent="1-16" drill="0.75"/>
+<via x="4.0386" y="21.336" extent="1-16" drill="0.75"/>
 <contactref element="R2" pad="2"/>
 </signal>
 <signal name="48_GND">
@@ -816,10 +816,10 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="16" isolate="0.254">
 <vertex x="12.954" y="25.7048"/>
 <vertex x="17.3736" y="25.7048"/>
-<vertex x="18.9484" y="24.13"/>
-<vertex x="46.8884" y="24.13"/>
-<vertex x="48.26" y="25.5016"/>
-<vertex x="48.26" y="48.26"/>
+<vertex x="17.8308" y="25.2476"/>
+<vertex x="46.99" y="25.2476"/>
+<vertex x="48.387" y="26.6446"/>
+<vertex x="48.387" y="48.133"/>
 <vertex x="47.498" y="49.022"/>
 <vertex x="10.922" y="49.022"/>
 <vertex x="0" y="38.1"/>
@@ -828,9 +828,9 @@ design rules under a new name.</description>
 <vertex x="10.2108" y="22.9616"/>
 </polygon>
 <polygon width="0.254" layer="1">
-<vertex x="48.26" y="25.5016"/>
-<vertex x="46.863" y="24.1046"/>
-<vertex x="18.9738" y="24.1046"/>
+<vertex x="48.387" y="26.6446"/>
+<vertex x="46.99" y="25.2476"/>
+<vertex x="17.8308" y="25.2476"/>
 <vertex x="17.3736" y="25.7048"/>
 <vertex x="12.9794" y="25.7048"/>
 <vertex x="10.6426" y="23.368"/>
@@ -839,20 +839,20 @@ design rules under a new name.</description>
 <vertex x="1.6256" y="39.7256"/>
 <vertex x="10.922" y="49.022"/>
 <vertex x="47.498" y="49.022"/>
-<vertex x="48.26" y="48.26"/>
+<vertex x="48.387" y="48.133"/>
 </polygon>
-<via x="28.194" y="25.146" extent="1-16" drill="0.75"/>
-<via x="28.194" y="28.194" extent="1-16" drill="0.75"/>
-<via x="32.766" y="28.194" extent="1-16" drill="0.75"/>
-<via x="32.766" y="25.146" extent="1-16" drill="0.75"/>
-<via x="39.624" y="25.146" extent="1-16" drill="0.75"/>
-<via x="39.624" y="28.194" extent="1-16" drill="0.75"/>
-<via x="44.196" y="28.194" extent="1-16" drill="0.75"/>
-<via x="44.196" y="24.892" extent="1-16" drill="0.75"/>
-<via x="41.91" y="30.226" extent="1-16" drill="0.75"/>
-<via x="30.48" y="30.226" extent="1-16" drill="0.75"/>
-<via x="36.322" y="30.226" extent="1-16" drill="0.75"/>
-<via x="36.322" y="26.416" extent="1-16" drill="0.75"/>
+<via x="27.8892" y="26.2636" extent="1-16" drill="0.75"/>
+<via x="27.9146" y="29.21" extent="1-16" drill="0.75"/>
+<via x="32.6644" y="29.21" extent="1-16" drill="0.75"/>
+<via x="32.5882" y="26.2128" extent="1-16" drill="0.75"/>
+<via x="39.751" y="26.1366" extent="1-16" drill="0.75"/>
+<via x="39.7256" y="29.591" extent="1-16" drill="0.75"/>
+<via x="44.0436" y="29.4386" extent="1-16" drill="0.75"/>
+<via x="43.9166" y="25.9588" extent="1-16" drill="0.75"/>
+<via x="41.8846" y="32.2326" extent="1-16" drill="0.75"/>
+<via x="30.353" y="32.1564" extent="1-16" drill="0.75"/>
+<via x="36.1696" y="32.4104" extent="1-16" drill="0.75"/>
+<via x="36.1696" y="28.6004" extent="1-16" drill="0.75"/>
 <via x="8.382" y="25.4" extent="1-16" drill="0.75"/>
 <via x="8.382" y="27.94" extent="1-16" drill="0.75"/>
 <via x="6.35" y="29.972" extent="1-16" drill="0.75"/>
@@ -911,19 +911,6 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="51"/>
 <contactref element="U$6" pad="53"/>
 <contactref element="U$6" pad="55"/>
-<polygon width="0.3556" layer="16">
-<vertex x="50.3428" y="20.3708"/>
-<vertex x="67.2084" y="20.3708"/>
-<vertex x="71.0692" y="16.51"/>
-<vertex x="74.676" y="16.51"/>
-<vertex x="76.708" y="14.478"/>
-<vertex x="76.708" y="9.652"/>
-<vertex x="65.532" y="-1.524"/>
-<vertex x="52.578" y="-1.524"/>
-<vertex x="49.276" y="1.778"/>
-<vertex x="49.276" y="19.304"/>
-</polygon>
-<wire x1="50.1904" y1="21.8068" x2="50.1904" y2="20.32" width="0.254" layer="1"/>
 <via x="59.944" y="19.304" extent="1-16" drill="0.75"/>
 <via x="64.008" y="17.272" extent="1-16" drill="0.75"/>
 <via x="72.136" y="15.24" extent="1-16" drill="0.75"/>
@@ -944,30 +931,43 @@ design rules under a new name.</description>
 <via x="66.04" y="12.192" extent="1-16" drill="0.75"/>
 <via x="61.976" y="12.192" extent="1-16" drill="0.75"/>
 <via x="50.8" y="7.112" extent="1-16" drill="0.75"/>
-<polygon width="0.3556" layer="1">
-<vertex x="50.3428" y="20.3708"/>
-<vertex x="67.2084" y="20.3708"/>
-<vertex x="71.0692" y="16.51"/>
-<vertex x="74.676" y="16.51"/>
-<vertex x="77.47" y="13.716"/>
-<vertex x="77.47" y="10.414"/>
-<vertex x="65.532" y="-1.524"/>
-<vertex x="52.578" y="-1.524"/>
-<vertex x="49.276" y="1.778"/>
-<vertex x="49.276" y="19.304"/>
-</polygon>
 <contactref element="U$1" pad="SENSE+"/>
 <contactref element="R5" pad="2"/>
-<wire x1="63.4882" y1="23.8252" x2="63.4882" y2="20.3336" width="0.254" layer="16"/>
-<wire x1="63.4882" y1="20.3336" x2="63.4746" y2="20.32" width="0.254" layer="16"/>
-<wire x1="50.8" y1="19.304" x2="50.1904" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="63.4882" y1="23.8252" x2="63.4882" y2="20.3064" width="0.254" layer="16"/>
+<wire x1="63.4882" y1="20.3064" x2="63.5" y2="20.2946" width="0.254" layer="16"/>
+<wire x1="50.8" y1="19.304" x2="50.1904" y2="19.9136" width="0.1524" layer="1"/>
+<wire x1="50.1904" y1="19.9136" x2="50.1904" y2="21.8068" width="0.1524" layer="1"/>
+<polygon width="0.3556" layer="1">
+<vertex x="49.911" y="20.3962"/>
+<vertex x="67.5132" y="20.3962"/>
+<vertex x="67.5132" y="16.6878"/>
+<vertex x="74.168" y="16.6878"/>
+<vertex x="77.2922" y="13.5636"/>
+<vertex x="77.2922" y="10.9728"/>
+<vertex x="65.151" y="-1.1684"/>
+<vertex x="52.6796" y="-1.1684"/>
+<vertex x="49.1744" y="2.3368"/>
+<vertex x="49.1744" y="19.6596"/>
+</polygon>
+<polygon width="0.3556" layer="16">
+<vertex x="67.5132" y="20.3962"/>
+<vertex x="67.5132" y="16.6878"/>
+<vertex x="74.168" y="16.6878"/>
+<vertex x="76.4794" y="14.3764"/>
+<vertex x="76.4794" y="10.16"/>
+<vertex x="65.7606" y="-0.5588"/>
+<vertex x="52.07" y="-0.5588"/>
+<vertex x="49.1744" y="2.3368"/>
+<vertex x="49.1744" y="19.6596"/>
+<vertex x="49.911" y="20.3962"/>
+</polygon>
 </signal>
 <signal name="ON/OFF">
 <contactref element="U$6" pad="1"/>
 <contactref element="U$1" pad="ON/OFF"/>
-<wire x1="16.51" y1="24.13" x2="15.2908" y2="22.9108" width="0.254" layer="16"/>
-<wire x1="15.2908" y1="22.9108" x2="1.6764" y2="22.9108" width="0.254" layer="16"/>
-<wire x1="1.6764" y1="22.9108" x2="1.143" y2="23.4442" width="0.254" layer="16"/>
+<wire x1="16.51" y1="24.13" x2="15.2654" y2="22.8854" width="0.254" layer="16"/>
+<wire x1="15.2654" y1="22.8854" x2="1.7018" y2="22.8854" width="0.254" layer="16"/>
+<wire x1="1.7018" y1="22.8854" x2="1.143" y2="23.4442" width="0.254" layer="16"/>
 <wire x1="1.143" y1="23.4442" x2="1.143" y2="40.1828" width="0.254" layer="16"/>
 <wire x1="10.6172" y1="49.657" x2="1.143" y2="40.1828" width="0.254" layer="16"/>
 <wire x1="10.6172" y1="49.657" x2="22.86" y2="49.657" width="0.254" layer="16"/>
@@ -995,31 +995,6 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="36"/>
 <contactref element="U$6" pad="38"/>
 <contactref element="U$6" pad="40"/>
-<polygon width="0.3556" layer="16">
-<vertex x="50.292" y="27.94"/>
-<vertex x="67.2592" y="27.94"/>
-<vertex x="71.0692" y="31.75"/>
-<vertex x="74.422" y="31.75"/>
-<vertex x="76.708" y="34.036"/>
-<vertex x="76.708" y="39.878"/>
-<vertex x="65.024" y="51.562"/>
-<vertex x="52.324" y="51.562"/>
-<vertex x="49.276" y="48.514"/>
-<vertex x="49.276" y="28.956"/>
-</polygon>
-<polygon width="0.3556" layer="1">
-<vertex x="50.292" y="27.94"/>
-<vertex x="67.2592" y="27.94"/>
-<vertex x="71.0692" y="31.75"/>
-<vertex x="74.422" y="31.75"/>
-<vertex x="74.6252" y="31.9532"/>
-<vertex x="74.6252" y="39.7764"/>
-<vertex x="65.2272" y="49.1744"/>
-<vertex x="49.9364" y="49.1744"/>
-<vertex x="49.276" y="48.514"/>
-<vertex x="49.276" y="28.956"/>
-</polygon>
-<wire x1="50.1904" y1="26.5818" x2="50.1904" y2="28.0416" width="0.254" layer="1"/>
 <via x="51.562" y="28.702" extent="1-16" drill="0.75"/>
 <via x="50.8" y="30.48" extent="1-16" drill="0.75"/>
 <via x="50.8" y="35.56" extent="1-16" drill="0.75"/>
@@ -1042,6 +1017,33 @@ design rules under a new name.</description>
 <via x="67.2084" y="45.8216" extent="1-16" drill="0.75"/>
 <via x="66.9036" y="35.5092" extent="1-16" drill="0.75"/>
 <contactref element="U$1" pad="SENSE-"/>
+<wire x1="50.1904" y1="26.5818" x2="50.1904" y2="28.3718" width="0.1524" layer="1"/>
+<polygon width="0.3556" layer="1">
+<vertex x="49.8856" y="27.8892"/>
+<vertex x="67.3862" y="27.8892"/>
+<vertex x="67.3862" y="31.5976"/>
+<vertex x="74.2696" y="31.5976"/>
+<vertex x="74.5998" y="31.9278"/>
+<vertex x="74.5998" y="39.7764"/>
+<vertex x="65.1764" y="49.1998"/>
+<vertex x="50.0888" y="49.1998"/>
+<vertex x="49.149" y="48.26"/>
+<vertex x="49.149" y="28.6258"/>
+</polygon>
+<polygon width="0.3556" layer="16">
+<vertex x="49.8856" y="27.8892"/>
+<vertex x="67.2846" y="27.8892"/>
+<vertex x="67.3862" y="27.9908"/>
+<vertex x="67.3862" y="31.496"/>
+<vertex x="67.4878" y="31.5976"/>
+<vertex x="75.8444" y="31.5976"/>
+<vertex x="76.327" y="32.0802"/>
+<vertex x="76.327" y="39.8018"/>
+<vertex x="65.9638" y="50.165"/>
+<vertex x="51.054" y="50.165"/>
+<vertex x="49.149" y="48.26"/>
+<vertex x="49.149" y="28.6258"/>
+</polygon>
 </signal>
 <signal name="ALERT">
 <contactref element="U$1" pad="SMBALERT"/>
@@ -1063,9 +1065,9 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="44"/>
 <wire x1="54.61" y1="22.86" x2="55.9308" y2="21.5392" width="0.254" layer="1"/>
 <wire x1="69.5452" y1="21.8252" x2="69.85" y2="22.13" width="0.254" layer="1"/>
-<wire x1="69.5452" y1="21.8252" x2="60.6364" y2="21.8252" width="0.254" layer="1"/>
-<wire x1="55.9308" y1="21.5392" x2="60.3504" y2="21.5392" width="0.254" layer="1"/>
-<wire x1="60.3504" y1="21.5392" x2="60.6364" y2="21.8252" width="0.254" layer="1"/>
+<wire x1="69.5452" y1="21.8252" x2="66.1228" y2="21.8252" width="0.254" layer="1"/>
+<wire x1="55.9308" y1="21.5392" x2="65.8368" y2="21.5392" width="0.254" layer="1"/>
+<wire x1="65.8368" y1="21.5392" x2="66.1228" y2="21.8252" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="1"/>
@@ -1082,23 +1084,23 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="DGND"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="69.85" y1="28.13" x2="71.78" y2="28.13" width="0.254" layer="16"/>
-<wire x1="71.78" y1="28.13" x2="73.66" y2="26.25" width="0.254" layer="16"/>
-<wire x1="69.85" y1="28.13" x2="71.78" y2="28.13" width="0.254" layer="1"/>
-<wire x1="71.78" y1="28.13" x2="73.66" y2="26.25" width="0.254" layer="1"/>
+<wire x1="69.85" y1="28.13" x2="72.7964" y2="28.13" width="0.254" layer="1"/>
+<wire x1="72.7964" y1="28.13" x2="72.7964" y2="26.2246" width="0.254" layer="1"/>
+<wire x1="72.7964" y1="28.13" x2="73.6732" y2="28.13" width="0.254" layer="1"/>
+<wire x1="74.6506" y1="27.1526" x2="74.6506" y2="26.2246" width="0.254" layer="1"/>
+<wire x1="73.6732" y1="28.13" x2="74.6506" y2="27.1526" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="ADDR1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="73.66" y1="24.55" x2="72.39" y2="23.28" width="0.254" layer="16"/>
-<wire x1="72.39" y1="22.67" x2="69.85" y2="20.13" width="0.254" layer="16"/>
-<wire x1="72.39" y1="23.28" x2="72.39" y2="22.67" width="0.254" layer="16"/>
+<wire x1="69.85" y1="20.13" x2="72.7964" y2="23.0764" width="0.254" layer="1"/>
+<wire x1="72.7964" y1="23.0764" x2="72.7964" y2="24.5246" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R4" pad="2"/>
 <contactref element="U$1" pad="ADDR0"/>
-<wire x1="73.66" y1="21.94" x2="69.85" y2="18.13" width="0.254" layer="1"/>
-<wire x1="73.66" y1="24.55" x2="73.66" y2="21.94" width="0.254" layer="1"/>
+<wire x1="74.6506" y1="22.9306" x2="69.85" y2="18.13" width="0.254" layer="1"/>
+<wire x1="74.6506" y1="24.5246" x2="74.6506" y2="22.9306" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U$1" pad="TRIM"/>
