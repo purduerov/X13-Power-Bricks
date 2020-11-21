@@ -1595,6 +1595,19 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <sheets>
 <sheet>
 <plain>
+<text x="81.28" y="-30.48" size="1.778" layer="91">Octal digit -&gt; Resistor(Kohm) 
+_________
+ 0  |  10 
+ 1  |  15.4 
+ 2  |  23.7 
+ 3  |  36.5 
+ 4  |  54.9 
+ 5  |  84.5 
+ 6  |  130 
+ 7  |  200</text>
+<text x="81.28" y="-43.18" size="1.778" layer="91">ADDR1 = R3 Resistor
+ADDR0 = R4 Resistor
+Octal Address = 8*ADDR1 + ADDR0 </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-129.54" y="-78.74" smashed="yes">
@@ -2063,6 +2076,10 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
