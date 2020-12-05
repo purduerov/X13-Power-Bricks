@@ -767,6 +767,15 @@ design rules under a new name.</description>
 <vertex x="-1.27" y="10.16"/>
 <vertex x="-1.27" y="19.05"/>
 </polygon>
+<via x="2.54" y="20.32" extent="1-16" drill="0.35"/>
+<via x="11.43" y="20.32" extent="1-16" drill="0.35"/>
+<via x="6.35" y="16.51" extent="1-16" drill="0.35"/>
+<via x="20.32" y="20.32" extent="1-16" drill="0.35"/>
+<via x="27.94" y="20.32" extent="1-16" drill="0.35"/>
+<via x="24.13" y="16.51" extent="1-16" drill="0.35"/>
+<via x="3.81" y="10.16" extent="1-16" drill="0.35"/>
+<via x="10.16" y="3.81" extent="1-16" drill="0.35"/>
+<via x="21.59" y="3.81" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="48_GND">
 <contactref element="C3" pad="2"/>
@@ -812,6 +821,15 @@ design rules under a new name.</description>
 <vertex x="2.032" y="39.116"/>
 <vertex x="2.032" y="25.908"/>
 </polygon>
+<via x="21.59" y="27.94" extent="1-16" drill="0.35"/>
+<via x="27.178" y="27.94" extent="1-16" drill="0.35"/>
+<via x="24.638" y="34.29" extent="1-16" drill="0.35"/>
+<via x="3.048" y="27.94" extent="1-16" drill="0.35"/>
+<via x="10.668" y="27.94" extent="1-16" drill="0.35"/>
+<via x="6.858" y="33.02" extent="1-16" drill="0.35"/>
+<via x="6.858" y="39.37" extent="1-16" drill="0.35"/>
+<via x="14.478" y="45.72" extent="1-16" drill="0.35"/>
+<via x="22.606" y="45.593" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="12V">
 <contactref element="U$1" pad="12V"/>
@@ -871,6 +889,16 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="73.279" y1="17.311" x2="72.478" y2="16.51" width="0.254" layer="16"/>
 <wire x1="72.478" y1="16.51" x2="66.04" y2="16.51" width="0.254" layer="16"/>
+<via x="33.02" y="21.59" extent="1-16" drill="0.35"/>
+<via x="46.99" y="21.59" extent="1-16" drill="0.35"/>
+<via x="59.69" y="21.59" extent="1-16" drill="0.35"/>
+<via x="53.34" y="15.24" extent="1-16" drill="0.35"/>
+<via x="36.83" y="15.24" extent="1-16" drill="0.35"/>
+<via x="29.21" y="3.81" extent="1-16" drill="0.35"/>
+<via x="53.34" y="3.81" extent="1-16" drill="0.35"/>
+<via x="59.69" y="8.89" extent="1-16" drill="0.35"/>
+<via x="66.04" y="3.81" extent="1-16" drill="0.35"/>
+<via x="66.04" y="11.43" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ON/OFF">
 <contactref element="U$1" pad="ON/OFF"/>
@@ -943,6 +971,17 @@ design rules under a new name.</description>
 <vertex x="26.289" y="37.211"/>
 <vertex x="26.289" y="43.815"/>
 </polygon>
+<via x="31.75" y="27.94" extent="1-16" drill="0.35"/>
+<via x="46.99" y="27.94" extent="1-16" drill="0.35"/>
+<via x="59.69" y="27.94" extent="1-16" drill="0.35"/>
+<via x="66.04" y="38.1" extent="1-16" drill="0.35"/>
+<via x="63.5" y="43.18" extent="1-16" drill="0.35"/>
+<via x="54.61" y="43.18" extent="1-16" drill="0.35"/>
+<via x="48.26" y="44.45" extent="1-16" drill="0.35"/>
+<via x="50.8" y="41.91" extent="1-16" drill="0.35"/>
+<via x="57.15" y="35.56" extent="1-16" drill="0.35"/>
+<via x="39.37" y="34.29" extent="1-16" drill="0.35"/>
+<via x="30.48" y="44.45" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ALERT">
 <contactref element="U$1" pad="SMBALERT"/>
