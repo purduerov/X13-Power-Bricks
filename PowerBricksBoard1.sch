@@ -1688,11 +1688,6 @@ can’t be used (decimal)</text>
 </net>
 <net name="C2" class="0">
 <segment>
-<wire x1="48.26" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<label x="43.18" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="ON/OFF"/>
-</segment>
-<segment>
 <wire x1="83.82" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <label x="88.9" y="25.4" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="C2"/>
@@ -1701,11 +1696,6 @@ can’t be used (decimal)</text>
 <wire x1="-33.02" y1="33.02" x2="-25.4" y2="33.02" width="0.1524" layer="91"/>
 <label x="-25.4" y="33.02" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="C2"/>
-</segment>
-<segment>
-<wire x1="-68.58" y1="43.18" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
-<label x="-73.66" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="ON/OFF"/>
 </segment>
 </net>
 <net name="12_GND" class="0">
@@ -1819,6 +1809,18 @@ can’t be used (decimal)</text>
 <wire x1="-25.4" y1="38.1" x2="-33.02" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="TRIM"/>
+</segment>
+</net>
+<net name="ON/OFF" class="0">
+<segment>
+<wire x1="-68.58" y1="43.18" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="-73.66" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="ON/OFF"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="43.18" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="ON/OFF"/>
 </segment>
 </net>
 </nets>
