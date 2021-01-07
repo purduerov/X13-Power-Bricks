@@ -1145,156 +1145,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
-<library name="Brick_Dist_Connector">
-<packages>
-<package name="BRICK2DIST_C">
-<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
-<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
-<pad name="2@2" x="-13.97" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@4" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@6" x="-8.89" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@8" x="-6.35" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@10" x="-3.81" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@12" x="-1.27" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@14" x="1.27" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@16" x="3.81" y="-13.97" drill="1" diameter="1.6764"/>
-<pad name="2@15" x="3.81" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@13" x="1.27" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@11" x="-1.27" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@9" x="-3.81" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@7" x="-6.35" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@5" x="-8.89" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@3" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
-<pad name="2@1" x="-13.97" y="-16.51" drill="1" diameter="1.6764"/>
-<wire x1="-15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
-<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
-<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="17.78" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
-<pad name="4@2" x="-13.97" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@4" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@6" x="-8.89" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@8" x="-6.35" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@10" x="-3.81" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@12" x="-1.27" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@14" x="1.27" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@16" x="3.81" y="16.51" drill="1" diameter="1.6764"/>
-<pad name="4@15" x="3.81" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@13" x="1.27" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@11" x="-1.27" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@9" x="-3.81" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@7" x="-6.35" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@5" x="-8.89" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@3" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
-<pad name="4@1" x="-13.97" y="13.97" drill="1" diameter="1.6764"/>
-<wire x1="-15.24" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="21"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="12.7" width="0.127" layer="21"/>
-<wire x1="5.08" y1="12.7" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
-<pad name="E" x="35.56" y="5.08" drill="1" diameter="1.6764" rot="R90"/>
-<pad name="D" x="35.56" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
-<pad name="C" x="35.56" y="0" drill="1" diameter="1.6764" rot="R90"/>
-<pad name="B" x="35.56" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
-<pad name="A" x="35.56" y="-5.08" drill="1" diameter="1.6764" rot="R90"/>
-<wire x1="34.29" y1="-6.35" x2="36.83" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="36.83" y1="-6.35" x2="36.83" y2="6.35" width="0.127" layer="21"/>
-<wire x1="36.83" y1="6.35" x2="34.29" y2="6.35" width="0.127" layer="21"/>
-<wire x1="34.29" y1="6.35" x2="34.29" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
-<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
-<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
-<wire x1="38.1" y1="-25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
-<wire x1="-32.004" y1="18.034" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
-<wire x1="-15.494" y1="18.034" x2="5.334" y2="18.034" width="0.127" layer="39"/>
-<wire x1="5.334" y1="18.034" x2="5.334" y2="12.446" width="0.127" layer="39"/>
-<wire x1="5.334" y1="12.446" x2="-15.494" y2="12.446" width="0.127" layer="39"/>
-<wire x1="-15.494" y1="12.446" x2="-15.494" y2="18.034" width="0.127" layer="39"/>
-<wire x1="-18.796" y1="18.034" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
-<wire x1="-18.796" y1="12.446" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
-<wire x1="-32.004" y1="12.446" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
-<wire x1="37.084" y1="-6.604" x2="34.036" y2="-6.604" width="0.127" layer="39"/>
-<wire x1="34.036" y1="-6.604" x2="34.036" y2="6.604" width="0.127" layer="39"/>
-<wire x1="34.036" y1="6.604" x2="37.084" y2="6.604" width="0.127" layer="39"/>
-<wire x1="37.084" y1="6.604" x2="37.084" y2="-6.604" width="0.127" layer="39"/>
-<wire x1="-32.004" y1="-12.446" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
-<wire x1="-18.796" y1="-12.446" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
-<wire x1="-18.796" y1="-18.034" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
-<wire x1="-32.004" y1="-18.034" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
-<wire x1="-15.494" y1="-12.446" x2="5.334" y2="-12.446" width="0.127" layer="39"/>
-<wire x1="5.334" y1="-12.446" x2="5.334" y2="-18.034" width="0.127" layer="39"/>
-<wire x1="5.334" y1="-18.034" x2="-15.494" y2="-18.034" width="0.127" layer="39"/>
-<wire x1="-15.494" y1="-18.034" x2="-15.494" y2="-12.446" width="0.127" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BRICK_DIST_CONNECTOR">
-<pin name="VIN+" x="-5.08" y="5.08" length="middle"/>
-<pin name="VIN-" x="-5.08" y="0" length="middle"/>
-<pin name="VOUT+" x="30.48" y="5.08" length="middle" rot="R180"/>
-<pin name="VOUT-" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="ON/OFF" x="-5.08" y="-10.16" length="middle"/>
-<pin name="DATA" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="ALERT" x="30.48" y="-10.16" length="middle" rot="R180"/>
-<pin name="CLK" x="30.48" y="-15.24" length="middle" rot="R180"/>
-<pin name="C2" x="30.48" y="-20.32" length="middle" rot="R180"/>
-<wire x1="0" y1="7.62" x2="25.4" y2="7.62" width="0.254" layer="94"/>
-<wire x1="25.4" y1="7.62" x2="25.4" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="-22.86" x2="0" y2="7.62" width="0.254" layer="94"/>
-<text x="0.508" y="8.636" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BRICK2DIST_C">
-<gates>
-<gate name="G$1" symbol="BRICK_DIST_CONNECTOR" x="-12.7" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="BRICK2DIST_C">
-<connects>
-<connect gate="G$1" pin="ALERT" pad="D"/>
-<connect gate="G$1" pin="C2" pad="A"/>
-<connect gate="G$1" pin="CLK" pad="C"/>
-<connect gate="G$1" pin="DATA" pad="E"/>
-<connect gate="G$1" pin="ON/OFF" pad="B"/>
-<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
-<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
-<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16"/>
-<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="brick-capacitor-UCM1H331MNL1GS">
 <description>&lt;Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -1482,6 +1332,766 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="Brick_Dist_Connector">
+<packages>
+<package name="BRICK2DIST_C">
+<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="2@2" x="-13.97" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@4" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@6" x="-8.89" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@8" x="-6.35" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@10" x="-3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@12" x="-1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@14" x="1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@16" x="3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@15" x="3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@13" x="1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@11" x="-1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@9" x="-3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@7" x="-6.35" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@5" x="-8.89" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@3" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@1" x="-13.97" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="4@2" x="-13.97" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@4" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@6" x="-8.89" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@8" x="-6.35" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@10" x="-3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@12" x="-1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@14" x="1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@16" x="3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@15" x="3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@13" x="1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@11" x="-1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@9" x="-3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@7" x="-6.35" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@5" x="-8.89" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@3" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@1" x="-13.97" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="12.7" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="E" x="35.56" y="5.08" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="D" x="35.56" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="C" x="35.56" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="B" x="35.56" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="A" x="35.56" y="-5.08" drill="1" diameter="1.6764" rot="R90"/>
+<wire x1="34.29" y1="-6.35" x2="36.83" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-6.35" x2="36.83" y2="6.35" width="0.127" layer="21"/>
+<wire x1="36.83" y1="6.35" x2="34.29" y2="6.35" width="0.127" layer="21"/>
+<wire x1="34.29" y1="6.35" x2="34.29" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-32.004" y1="18.034" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="18.034" x2="5.334" y2="18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="18.034" x2="5.334" y2="12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="12.446" x2="-15.494" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="12.446" x2="-15.494" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="18.034" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="12.446" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="12.446" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
+<wire x1="37.084" y1="-6.604" x2="34.036" y2="-6.604" width="0.127" layer="39"/>
+<wire x1="34.036" y1="-6.604" x2="34.036" y2="6.604" width="0.127" layer="39"/>
+<wire x1="34.036" y1="6.604" x2="37.084" y2="6.604" width="0.127" layer="39"/>
+<wire x1="37.084" y1="6.604" x2="37.084" y2="-6.604" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-12.446" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-12.446" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-18.034" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-18.034" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-12.446" x2="5.334" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-12.446" x2="5.334" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-18.034" x2="-15.494" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-18.034" x2="-15.494" y2="-12.446" width="0.127" layer="39"/>
+</package>
+<package name="BRICK2DIST_D">
+<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="2@2" x="-13.97" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@4" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@6" x="-8.89" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@8" x="-6.35" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@10" x="-3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@12" x="-1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@14" x="1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@16" x="3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@15" x="3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@13" x="1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@11" x="-1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@9" x="-3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@7" x="-6.35" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@5" x="-8.89" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@3" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@1" x="-13.97" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="4@2" x="-13.97" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@4" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@6" x="-8.89" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@8" x="-6.35" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@10" x="-3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@12" x="-1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@14" x="1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@16" x="3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@15" x="3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@13" x="1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@11" x="-1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@9" x="-3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@7" x="-6.35" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@5" x="-8.89" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@3" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@1" x="-13.97" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="12.7" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="E" x="35.56" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="D" x="33.02" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="C" x="33.02" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="B" x="33.02" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="A" x="35.56" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<wire x1="31.75" y1="-3.81" x2="36.83" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-3.81" x2="36.83" y2="3.81" width="0.127" layer="21"/>
+<wire x1="36.83" y1="3.81" x2="31.75" y2="3.81" width="0.127" layer="21"/>
+<wire x1="31.75" y1="3.81" x2="31.75" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-32.004" y1="18.034" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="18.034" x2="5.334" y2="18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="18.034" x2="5.334" y2="12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="12.446" x2="-15.494" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="12.446" x2="-15.494" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="18.034" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="12.446" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="12.446" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
+<wire x1="37.084" y1="-4.064" x2="31.496" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="31.496" y1="-4.064" x2="31.496" y2="4.064" width="0.127" layer="39"/>
+<wire x1="31.496" y1="4.064" x2="37.084" y2="4.064" width="0.127" layer="39"/>
+<wire x1="37.084" y1="4.064" x2="37.084" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-12.446" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-12.446" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-18.034" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-18.034" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-12.446" x2="5.334" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-12.446" x2="5.334" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-18.034" x2="-15.494" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-18.034" x2="-15.494" y2="-12.446" width="0.127" layer="39"/>
+<pad name="F" x="35.56" y="0" drill="1" diameter="1.6764" rot="R90"/>
+</package>
+<package name="BRICK2DIST_E">
+<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="2@2" x="-13.97" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@4" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@6" x="-8.89" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@8" x="-6.35" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@10" x="-3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@12" x="-1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@14" x="1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@16" x="3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@15" x="3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@13" x="1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@11" x="-1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@9" x="-3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@7" x="-6.35" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@5" x="-8.89" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@3" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@1" x="-13.97" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="4@2" x="-13.97" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@4" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@6" x="-8.89" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@8" x="-6.35" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@10" x="-3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@12" x="-1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@14" x="1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@16" x="3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@15" x="3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@13" x="1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@11" x="-1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@9" x="-3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@7" x="-6.35" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@5" x="-8.89" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@3" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@1" x="-13.97" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="12.7" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="E" x="33.02" y="5.08" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="D" x="33.02" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="C" x="33.02" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="B" x="33.02" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="A" x="33.02" y="-5.08" drill="1" diameter="1.6764" rot="R90"/>
+<wire x1="31.75" y1="-6.35" x2="36.83" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-6.35" x2="36.83" y2="6.35" width="0.127" layer="21"/>
+<wire x1="36.83" y1="6.35" x2="31.75" y2="6.35" width="0.127" layer="21"/>
+<wire x1="31.75" y1="6.35" x2="31.75" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-32.004" y1="18.034" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="18.034" x2="5.334" y2="18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="18.034" x2="5.334" y2="12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="12.446" x2="-15.494" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="12.446" x2="-15.494" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="18.034" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="12.446" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="12.446" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
+<wire x1="37.084" y1="-6.604" x2="31.496" y2="-6.604" width="0.127" layer="39"/>
+<wire x1="31.496" y1="-6.604" x2="31.496" y2="6.604" width="0.127" layer="39"/>
+<wire x1="31.496" y1="6.604" x2="37.084" y2="6.604" width="0.127" layer="39"/>
+<wire x1="37.084" y1="6.604" x2="37.084" y2="-6.604" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-12.446" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-12.446" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-18.034" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-18.034" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-12.446" x2="5.334" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-12.446" x2="5.334" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-18.034" x2="-15.494" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-18.034" x2="-15.494" y2="-12.446" width="0.127" layer="39"/>
+<pad name="F" x="35.56" y="-5.08" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="G" x="35.56" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="H" x="35.56" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="I" x="35.56" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="J" x="35.56" y="5.08" drill="1" diameter="1.6764" rot="R90"/>
+</package>
+<package name="BRICK2DIST_A">
+<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="2@2" x="-13.97" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@4" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@6" x="-8.89" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@8" x="-6.35" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@10" x="-3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@12" x="-1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@14" x="1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@16" x="3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@15" x="3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@13" x="1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@11" x="-1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@9" x="-3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@7" x="-6.35" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@5" x="-8.89" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@3" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@1" x="-13.97" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="4@2" x="-13.97" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@4" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@6" x="-8.89" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@8" x="-6.35" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@10" x="-3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@12" x="-1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@14" x="1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@16" x="3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@15" x="3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@13" x="1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@11" x="-1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@9" x="-3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@7" x="-6.35" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@5" x="-8.89" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@3" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@1" x="-13.97" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="12.7" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="E" x="3.81" y="21.59" drill="1" diameter="1.6764"/>
+<pad name="D" x="1.27" y="21.59" drill="1" diameter="1.6764"/>
+<pad name="C" x="-1.27" y="21.59" drill="1" diameter="1.6764"/>
+<pad name="B" x="-3.81" y="21.59" drill="1" diameter="1.6764"/>
+<pad name="A" x="-6.35" y="21.59" drill="1" diameter="1.6764"/>
+<wire x1="-7.62" y1="22.86" x2="-7.62" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="20.32" x2="5.08" y2="20.32" width="0.127" layer="21"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="22.86" width="0.127" layer="21"/>
+<wire x1="5.08" y1="22.86" x2="-7.62" y2="22.86" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-32.004" y1="18.034" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="18.034" x2="5.334" y2="18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="18.034" x2="5.334" y2="12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="12.446" x2="-15.494" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="12.446" x2="-15.494" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="18.034" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="12.446" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="12.446" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-7.874" y1="20.066" x2="-7.874" y2="23.114" width="0.127" layer="39"/>
+<wire x1="-7.874" y1="23.114" x2="5.334" y2="23.114" width="0.127" layer="39"/>
+<wire x1="5.334" y1="23.114" x2="5.334" y2="20.066" width="0.127" layer="39"/>
+<wire x1="5.334" y1="20.066" x2="-7.874" y2="20.066" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-12.446" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-12.446" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-18.034" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-18.034" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-12.446" x2="5.334" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-12.446" x2="5.334" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-18.034" x2="-15.494" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-18.034" x2="-15.494" y2="-12.446" width="0.127" layer="39"/>
+</package>
+<package name="BRICK2DIST_B">
+<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="2@2" x="-13.97" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@4" x="-11.43" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@6" x="-8.89" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@8" x="-6.35" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@10" x="-3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@12" x="-1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@14" x="1.27" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@16" x="3.81" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@15" x="3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@13" x="1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@11" x="-1.27" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@9" x="-3.81" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@7" x="-6.35" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@5" x="-8.89" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@3" x="-11.43" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@1" x="-13.97" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.127" layer="21"/>
+<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="4@2" x="-13.97" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@4" x="-11.43" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@6" x="-8.89" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@8" x="-6.35" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@10" x="-3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@12" x="-1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@14" x="1.27" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@16" x="3.81" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@15" x="3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@13" x="1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@11" x="-1.27" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@9" x="-3.81" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@7" x="-6.35" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@5" x="-8.89" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@3" x="-11.43" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@1" x="-13.97" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-15.24" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="21"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="12.7" x2="-15.24" y2="12.7" width="0.127" layer="21"/>
+<pad name="E" x="31.75" y="5.08" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="D" x="31.75" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="C" x="31.75" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="B" x="31.75" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="A" x="31.75" y="-5.08" drill="1" diameter="1.6764" rot="R90"/>
+<wire x1="30.48" y1="-6.35" x2="33.02" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="33.02" y1="-6.35" x2="33.02" y2="6.35" width="0.127" layer="21"/>
+<wire x1="33.02" y1="6.35" x2="30.48" y2="6.35" width="0.127" layer="21"/>
+<wire x1="30.48" y1="6.35" x2="30.48" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-25.4" x2="-38.1" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-32.004" y1="18.034" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="18.034" x2="5.334" y2="18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="18.034" x2="5.334" y2="12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="12.446" x2="-15.494" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="12.446" x2="-15.494" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="18.034" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="12.446" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="12.446" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
+<wire x1="33.274" y1="-6.604" x2="30.226" y2="-6.604" width="0.127" layer="39"/>
+<wire x1="30.226" y1="-6.604" x2="30.226" y2="6.604" width="0.127" layer="39"/>
+<wire x1="30.226" y1="6.604" x2="33.274" y2="6.604" width="0.127" layer="39"/>
+<wire x1="33.274" y1="6.604" x2="33.274" y2="-6.604" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-12.446" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-12.446" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-18.034" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-18.034" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-12.446" x2="5.334" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-12.446" x2="5.334" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="5.334" y1="-18.034" x2="-15.494" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-15.494" y1="-18.034" x2="-15.494" y2="-12.446" width="0.127" layer="39"/>
+</package>
+<package name="BRICK2DIST_D2">
+<pad name="1@2" x="-30.48" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@4" x="-27.94" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@6" x="-25.4" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@8" x="-22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@10" x="-20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="1@9" x="-20.32" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@7" x="-22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@5" x="-25.4" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@3" x="-27.94" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="1@1" x="-30.48" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="-12.7" x2="-19.05" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-31.75" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-17.78" x2="-31.75" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-12.7" x2="-1.27" y2="-17.78" width="0.127" layer="21"/>
+<pad name="2@2" x="0" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@4" x="2.54" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@6" x="5.08" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@8" x="7.62" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@10" x="10.16" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@12" x="12.7" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@14" x="15.24" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@16" x="17.78" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@15" x="17.78" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@13" x="15.24" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@11" x="12.7" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@9" x="10.16" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@7" x="7.62" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@5" x="5.08" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@3" x="2.54" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@1" x="0" y="-16.51" drill="1" diameter="1.6764"/>
+<wire x1="-1.27" y1="-12.7" x2="24.13" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-12.7" x2="24.13" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-17.78" x2="-1.27" y2="-17.78" width="0.127" layer="21"/>
+<pad name="3@2" x="-30.48" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@4" x="-27.94" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@6" x="-25.4" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@8" x="-22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@10" x="-20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="3@9" x="-20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@7" x="-22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@5" x="-25.4" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@3" x="-27.94" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="3@1" x="-30.48" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-31.75" y1="17.78" x2="-19.05" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="12.7" x2="-31.75" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="12.7" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="17.78" x2="-1.27" y2="12.7" width="0.127" layer="21"/>
+<pad name="4@2" x="0" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@4" x="2.54" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@6" x="5.08" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@8" x="7.62" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@10" x="10.16" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@12" x="12.7" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@14" x="15.24" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@16" x="17.78" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@15" x="17.78" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@13" x="15.24" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@11" x="12.7" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@9" x="10.16" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@7" x="7.62" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@5" x="5.08" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@3" x="2.54" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@1" x="0" y="13.97" drill="1" diameter="1.6764"/>
+<wire x1="-1.27" y1="17.78" x2="24.13" y2="17.78" width="0.127" layer="21"/>
+<wire x1="24.13" y1="17.78" x2="24.13" y2="12.7" width="0.127" layer="21"/>
+<wire x1="24.13" y1="12.7" x2="-1.27" y2="12.7" width="0.127" layer="21"/>
+<pad name="E" x="35.56" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="D" x="33.02" y="2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="C" x="33.02" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="B" x="33.02" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="A" x="35.56" y="-2.54" drill="1" diameter="1.6764" rot="R90"/>
+<wire x1="31.75" y1="-3.81" x2="36.83" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-3.81" x2="36.83" y2="3.81" width="0.127" layer="21"/>
+<wire x1="36.83" y1="3.81" x2="31.75" y2="3.81" width="0.127" layer="21"/>
+<wire x1="31.75" y1="3.81" x2="31.75" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="-25.4" x2="-38.1" y2="25.4" width="0.127" layer="22"/>
+<wire x1="-38.1" y1="-25.4" x2="38.1" y2="-25.4" width="0.127" layer="22"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="25.4" width="0.127" layer="22"/>
+<wire x1="38.1" y1="25.4" x2="-38.1" y2="25.4" width="0.127" layer="22"/>
+<wire x1="-32.004" y1="18.034" x2="-32.004" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="12.446" x2="-18.796" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="12.446" x2="-18.796" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="18.034" x2="-32.004" y2="18.034" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="18.034" x2="24.384" y2="18.034" width="0.127" layer="39"/>
+<wire x1="24.384" y1="18.034" x2="24.384" y2="12.446" width="0.127" layer="39"/>
+<wire x1="24.384" y1="12.446" x2="-1.524" y2="12.446" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="12.446" x2="-1.524" y2="18.034" width="0.127" layer="39"/>
+<wire x1="37.084" y1="-4.064" x2="37.084" y2="4.064" width="0.127" layer="39"/>
+<wire x1="37.084" y1="4.064" x2="31.496" y2="4.064" width="0.127" layer="39"/>
+<wire x1="31.496" y1="4.064" x2="31.496" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="31.496" y1="-4.064" x2="37.084" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="-18.034" x2="-1.524" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="-12.446" x2="24.384" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="24.384" y1="-12.446" x2="24.384" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="24.384" y1="-18.034" x2="-1.524" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-18.034" x2="-18.796" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-18.796" y1="-12.446" x2="-32.004" y2="-12.446" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-12.446" x2="-32.004" y2="-18.034" width="0.127" layer="39"/>
+<wire x1="-32.004" y1="-18.034" x2="-18.796" y2="-18.034" width="0.127" layer="39"/>
+<pad name="F" x="35.56" y="0" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="4@17" x="20.32" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@18" x="22.86" y="16.51" drill="1" diameter="1.6764"/>
+<pad name="4@19" x="22.86" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="4@20" x="20.32" y="13.97" drill="1" diameter="1.6764"/>
+<pad name="2@17" x="20.32" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@18" x="22.86" y="-13.97" drill="1" diameter="1.6764"/>
+<pad name="2@19" x="22.86" y="-16.51" drill="1" diameter="1.6764"/>
+<pad name="2@20" x="20.32" y="-16.51" drill="1" diameter="1.6764"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BRICK_DIST_CONNECTOR">
+<pin name="VIN+" x="-5.08" y="5.08" length="middle"/>
+<pin name="VIN-" x="-5.08" y="0" length="middle"/>
+<pin name="VOUT+" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="VOUT-" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="ON/OFF" x="-5.08" y="-10.16" length="middle"/>
+<pin name="DATA" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="ALERT" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="CLK" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="C2" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<wire x1="0" y1="7.62" x2="25.4" y2="7.62" width="0.254" layer="94"/>
+<wire x1="25.4" y1="7.62" x2="25.4" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="0.508" y="8.636" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BRICK2DIST">
+<gates>
+<gate name="G$1" symbol="BRICK_DIST_CONNECTOR" x="-12.7" y="7.62"/>
+</gates>
+<devices>
+<device name="VER_C" package="BRICK2DIST_C">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="D"/>
+<connect gate="G$1" pin="C2" pad="A"/>
+<connect gate="G$1" pin="CLK" pad="C"/>
+<connect gate="G$1" pin="DATA" pad="E"/>
+<connect gate="G$1" pin="ON/OFF" pad="B"/>
+<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
+<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
+<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16"/>
+<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VER_D" package="BRICK2DIST_D">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="D"/>
+<connect gate="G$1" pin="C2" pad="A"/>
+<connect gate="G$1" pin="CLK" pad="C"/>
+<connect gate="G$1" pin="DATA" pad="E"/>
+<connect gate="G$1" pin="ON/OFF" pad="B"/>
+<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
+<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
+<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16"/>
+<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VER_E" package="BRICK2DIST_E">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="D"/>
+<connect gate="G$1" pin="C2" pad="A"/>
+<connect gate="G$1" pin="CLK" pad="C"/>
+<connect gate="G$1" pin="DATA" pad="E"/>
+<connect gate="G$1" pin="ON/OFF" pad="B"/>
+<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
+<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
+<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16"/>
+<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VER_A" package="BRICK2DIST_A">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="D"/>
+<connect gate="G$1" pin="C2" pad="A"/>
+<connect gate="G$1" pin="CLK" pad="C"/>
+<connect gate="G$1" pin="DATA" pad="E"/>
+<connect gate="G$1" pin="ON/OFF" pad="B"/>
+<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
+<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
+<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16"/>
+<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VER_B" package="BRICK2DIST_B">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="D"/>
+<connect gate="G$1" pin="C2" pad="A"/>
+<connect gate="G$1" pin="CLK" pad="C"/>
+<connect gate="G$1" pin="DATA" pad="E"/>
+<connect gate="G$1" pin="ON/OFF" pad="B"/>
+<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
+<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
+<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16"/>
+<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="BRICK2DIST_D2">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="D"/>
+<connect gate="G$1" pin="C2" pad="A"/>
+<connect gate="G$1" pin="CLK" pad="C"/>
+<connect gate="G$1" pin="DATA" pad="E"/>
+<connect gate="G$1" pin="ON/OFF" pad="B"/>
+<connect gate="G$1" pin="VIN+" pad="1@1 1@2 1@3 1@4 1@5 1@6 1@7 1@8 1@9 1@10"/>
+<connect gate="G$1" pin="VIN-" pad="3@1 3@2 3@3 3@4 3@5 3@6 3@7 3@8 3@9 3@10"/>
+<connect gate="G$1" pin="VOUT+" pad="2@1 2@2 2@3 2@4 2@5 2@6 2@7 2@8 2@9 2@10 2@11 2@12 2@13 2@14 2@15 2@16 2@17 2@18 2@19 2@20"/>
+<connect gate="G$1" pin="VOUT-" pad="4@1 4@2 4@3 4@4 4@5 4@6 4@7 4@8 4@9 4@10 4@11 4@12 4@13 4@14 4@15 4@16 4@17 4@18 4@19 4@20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1501,7 +2111,6 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <part name="H2" library="Mounting Holes" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
 <part name="H3" library="Mounting Holes" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
 <part name="H4" library="Mounting Holes" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
-<part name="U$3" library="Brick_Dist_Connector" deviceset="BRICK2DIST_C" device=""/>
 <part name="C1" library="brick-capacitor-UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device="" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF"/>
 <part name="C2" library="brick-capacitor-UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device="" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF"/>
 <part name="C4" library="brick-capacitor-UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device="" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF"/>
@@ -1509,6 +2118,7 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="475k"/>
+<part name="U$1" library="Brick_Dist_Connector" deviceset="BRICK2DIST" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1569,7 +2179,6 @@ can’t be used (decimal)</text>
 <attribute name="NAME" x="22.86" y="-60.96" size="1.016" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="22.86" y="-66.04" size="1.016" layer="95" align="top-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="53.34" y="45.72" smashed="yes"/>
 <instance part="C1" gate="G$1" x="-99.06" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-97.79" y="-39.37" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-97.79" y="-44.45" size="1.778" layer="95" align="center-left"/>
@@ -1594,6 +2203,9 @@ can’t be used (decimal)</text>
 <instance part="R5" gate="G$1" x="-20.32" y="38.1" smashed="yes">
 <attribute name="NAME" x="-20.32" y="39.624" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-20.32" y="36.576" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$1" gate="G$1" x="53.34" y="45.72" smashed="yes">
+<attribute name="NAME" x="53.848" y="54.356" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -1621,7 +2233,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="48.26" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
 <label x="43.18" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="VIN+"/>
+<pinref part="U$1" gate="G$1" pin="VIN+"/>
 </segment>
 <segment>
 <wire x1="-68.58" y1="48.26" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
@@ -1651,7 +2263,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="48.26" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="43.18" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="VIN-"/>
+<pinref part="U$1" gate="G$1" pin="VIN-"/>
 </segment>
 <segment>
 <wire x1="-68.58" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
@@ -1668,7 +2280,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="83.82" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <label x="88.9" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="VOUT+"/>
+<pinref part="U$1" gate="G$1" pin="VOUT+"/>
 </segment>
 <segment>
 <label x="-5.08" y="48.26" size="1.778" layer="95" xref="yes"/>
@@ -1690,7 +2302,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="83.82" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <label x="88.9" y="25.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="C2"/>
+<pinref part="U$1" gate="G$1" pin="C2"/>
 </segment>
 <segment>
 <wire x1="-33.02" y1="33.02" x2="-25.4" y2="33.02" width="0.1524" layer="91"/>
@@ -1707,7 +2319,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="83.82" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <label x="88.9" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="VOUT-"/>
+<pinref part="U$1" gate="G$1" pin="VOUT-"/>
 </segment>
 <segment>
 <wire x1="-33.02" y1="22.86" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
@@ -1724,7 +2336,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="83.82" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <label x="88.9" y="35.56" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="ALERT"/>
+<pinref part="U$1" gate="G$1" pin="ALERT"/>
 </segment>
 <segment>
 <wire x1="-68.58" y1="30.48" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
@@ -1736,7 +2348,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="83.82" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <label x="88.9" y="40.64" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="DATA"/>
+<pinref part="U$1" gate="G$1" pin="DATA"/>
 </segment>
 <segment>
 <wire x1="-68.58" y1="25.4" x2="-93.98" y2="25.4" width="0.1524" layer="91"/>
@@ -1748,7 +2360,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="83.82" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <label x="88.9" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="CLK"/>
+<pinref part="U$1" gate="G$1" pin="CLK"/>
 </segment>
 <segment>
 <wire x1="-68.58" y1="27.94" x2="-85.344" y2="27.94" width="0.1524" layer="91"/>
@@ -1820,7 +2432,7 @@ can’t be used (decimal)</text>
 <segment>
 <wire x1="48.26" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 <label x="43.18" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="ON/OFF"/>
+<pinref part="U$1" gate="G$1" pin="ON/OFF"/>
 </segment>
 </net>
 </nets>
