@@ -1241,11 +1241,11 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 <pad name="1" x="0" y="0" drill="1.6" diameter="2.794"/>
 <pad name="2" x="0" y="7.62" drill="1.6" diameter="2.794"/>
 <pad name="4" x="0" y="15.24" drill="1.6" diameter="2.794"/>
-<pad name="9" x="50.8" y="0" drill="2.1" diameter="3.302"/>
+<pad name="9" x="50.8" y="0" drill="2.1" diameter="3.302" thermals="no"/>
 <pad name="7" x="50.8" y="7.62" drill="1.6"/>
 <pad name="8" x="50.8" y="3.81" drill="1.6"/>
 <pad name="6" x="50.8" y="11.43" drill="1.6"/>
-<pad name="5" x="50.8" y="15.24" drill="2.1" diameter="3.302"/>
+<pad name="5" x="50.8" y="15.24" drill="2.1" diameter="3.302" thermals="no"/>
 <pad name="13" x="53.34" y="7.62" drill="1.2"/>
 <pad name="14" x="53.34" y="5.62" drill="1.2"/>
 <pad name="15" x="53.34" y="3.62" drill="1.2"/>
@@ -2140,6 +2140,10 @@ Octal Address = 8*ADDR1 + ADDR0
 can’t be used (decimal)</text>
 <text x="-91.44" y="76.2" size="6.4516" layer="91">Brick Connections</text>
 <text x="27.94" y="76.2" size="6.4516" layer="91">Backplane Connector</text>
+<text x="55.88" y="-17.78" size="1.778" layer="91">Trim up: 5.11 * 12 (100+ Delta )/(1.225* Delta) 
+- 511/Delta - 10.2 = resistor to use in kOhm
+
+Where Delta is the % up for trim (10% = 10) </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-129.54" y="-78.74" smashed="yes">
@@ -2211,7 +2215,7 @@ can’t be used (decimal)</text>
 <busses>
 </busses>
 <nets>
-<net name="48V" class="0">
+<net name="48V_GND" class="0">
 <segment>
 <wire x1="-99.06" y1="-30.48" x2="-81.28" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="-30.48" x2="-63.5" y2="-30.48" width="0.1524" layer="91"/>
@@ -2400,27 +2404,30 @@ can’t be used (decimal)</text>
 <pinref part="U$2" gate="G$1" pin="DGND"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="ADDR1" class="0">
 <segment>
 <wire x1="-91.44" y1="38.1" x2="-68.58" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U$2" gate="G$1" pin="ADDR1"/>
+<label x="-88.9" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="ADDR0" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="ADDR0"/>
 <wire x1="-68.58" y1="35.56" x2="-88.9" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="35.56" x2="-88.9" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-88.9" y1="33.02" x2="-91.44" y2="33.02" width="0.1524" layer="91"/>
+<label x="-88.9" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="TRIM" class="0">
 <segment>
 <wire x1="-25.4" y1="38.1" x2="-33.02" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="TRIM"/>
+<label x="-31.75" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ON/OFF" class="0">
