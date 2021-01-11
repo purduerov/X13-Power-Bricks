@@ -203,6 +203,11 @@ can’t be used (decimal)</text>
 Where Delta is the % up for trim (10% = 10) </text>
 <text x="22.86" y="35.56" size="1.778" layer="25">~(^._.)</text>
 <text x="22.606" y="13.716" size="1.778" layer="25">=^..^=</text>
+<text x="20.32" y="39.878" size="1.016" layer="25">ROV X13 Power Bricks Board v1
+Erin Park
+Read Hedl
+Grant Geyer
+1-11-2020</text>
 </plain>
 <libraries>
 <library name="brick-capacitor-UCM1H331MNL1GS">
