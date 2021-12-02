@@ -2215,36 +2215,6 @@ Where Delta is the % up for trim (10% = 10) </text>
 <busses>
 </busses>
 <nets>
-<net name="48V_GND" class="0">
-<segment>
-<wire x1="30.48" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
-<junction x="48.26" y="48.26"/>
-<wire x1="48.26" y1="48.26" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="48.26" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="30.48" y1="48.26" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="48.26" y1="48.26" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="66.04" y1="48.26" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="114.3" y1="48.26" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
-<label x="114.3" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="177.8" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
-<label x="172.72" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="VIN+"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
-<label x="55.88" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="VIN(+)"/>
-</segment>
-</net>
 <net name="48_GND" class="0">
 <segment>
 <wire x1="66.04" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
@@ -2440,6 +2410,36 @@ Where Delta is the % up for trim (10% = 10) </text>
 <wire x1="177.8" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 <label x="172.72" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="ON/OFF"/>
+</segment>
+</net>
+<net name="48V" class="0">
+<segment>
+<wire x1="60.96" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
+<label x="55.88" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="VIN(+)"/>
+</segment>
+<segment>
+<wire x1="177.8" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<label x="172.72" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="VIN+"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<junction x="48.26" y="48.26"/>
+<wire x1="48.26" y1="48.26" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="48.26" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<wire x1="48.26" y1="48.26" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="66.04" y1="48.26" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="114.3" y1="48.26" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
+<label x="114.3" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
